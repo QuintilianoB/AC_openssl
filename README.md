@@ -19,17 +19,17 @@ Para iniciar a uitlização, salve os seguintes arquivos:
 Á partir do diretório em que os arquivos foram salvos, execute:
 
 # Arquivos para AC Raiz
-mkdir -p ca/ac-raiz/privado ca/ac-raiz/db crl certs
-cp /dev/null ca/ac-raiz/db/ac-raiz.db
-cp /dev/null ca/ac-raiz/db/ac-raiz.db.attr
-echo 01 > ca/ac-raiz/db/ac-raiz.crt.srl 
-echo 01 > ca/ac-raiz/db/ac-raiz.crl.srl
+user@localhost: mkdir -p ca/ac-raiz/privado ca/ac-raiz/db crl certs
+user@localhost: cp /dev/null ca/ac-raiz/db/ac-raiz.db
+user@localhost: cp /dev/null ca/ac-raiz/db/ac-raiz.db.attr
+user@localhost: echo 01 > ca/ac-raiz/db/ac-raiz.crt.srl 
+user@localhost: echo 01 > ca/ac-raiz/db/ac-raiz.crl.srl
 
 # Arquivos para AC Emissora
-mkdir -p ca/ac-emissora/privado ca/ac-emissora/db crl certs
-cp /dev/null ca/ac-emissora/db/ac-emissora.db
-cp /dev/null ca/ac-emissora/db/ac-emissora.db.attr
-echo 01 > ca/ac-emissora/db/ac-emissora.crt.srl
-echo 01 > ca/ac-emissora/db/ac-emissora.crl.srl
+user@localhost: mkdir -p ca/ac-emissora/privado ca/ac-emissora/db crl certs
+user@localhost: cp /dev/null ca/ac-emissora/db/ac-emissora.db
+user@localhost: cp /dev/null ca/ac-emissora/db/ac-emissora.db.attr
+user@localhost: echo 01 > ca/ac-emissora/db/ac-emissora.crt.srl
+user@localhost: echo 01 > ca/ac-emissora/db/ac-emissora.crl.srl
 
 Créditos: https://pki-tutorial.readthedocs.org/en/latest/expert/index.html
