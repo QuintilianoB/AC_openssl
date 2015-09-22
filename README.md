@@ -16,9 +16,9 @@ Para iniciar a uitlização, salve os seguintes arquivos:
 - server.conf
 - gerar_lcr_ac-emissora.sh  
 
-Á partir do diretório em que os arquivos foram salvos, execute:
+A partir do diretório em que os arquivos foram salvos, execute:
 
-# Arquivos para AC Raiz
+##### Arquivos para AC Raiz
 ```
 mkdir -p ca/ac-raiz/privado ca/ac-raiz/db crl certs
 cp /dev/null ca/ac-raiz/db/ac-raiz.db
@@ -27,7 +27,7 @@ echo 01 > ca/ac-raiz/db/ac-raiz.crt.srl
 echo 01 > ca/ac-raiz/db/ac-raiz.crl.srl
 ```
 
-# Arquivos para AC Emissora
+##### Arquivos para AC Emissora
 ```
 mkdir -p ca/ac-emissora/privado ca/ac-emissora/db crl certs
 cp /dev/null ca/ac-emissora/db/ac-emissora.db
