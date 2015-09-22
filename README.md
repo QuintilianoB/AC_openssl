@@ -37,7 +37,7 @@ echo 01 > ca/ac-emissora/db/ac-emissora.crl.srl
 ```
 
 Referência:
-https://www.openssl.org/docs/manmaster/apps/x509.html
-https://www.openssl.org/docs/manmaster/apps/crl.html
-https://www.openssl.org/docs/manmaster/apps/ca.html
-https://www.openssl.org/docs/manmaster/apps/req.html
+- https://www.openssl.org/docs/manmaster/apps/x509.html
+- https://www.openssl.org/docs/manmaster/apps/crl.html
+- https://www.openssl.org/docs/manmaster/apps/ca.html
+- https://www.openssl.org/docs/manmaster/apps/req.html
