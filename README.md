@@ -36,4 +36,8 @@ echo 01 > ca/ac-emissora/db/ac-emissora.crt.srl
 echo 01 > ca/ac-emissora/db/ac-emissora.crl.srl
 ```
 
-Créditos: https://pki-tutorial.readthedocs.org/en/latest/expert/index.html
+Referência:
+https://www.openssl.org/docs/manmaster/apps/x509.html
+https://www.openssl.org/docs/manmaster/apps/crl.html
+https://www.openssl.org/docs/manmaster/apps/ca.html
+https://www.openssl.org/docs/manmaster/apps/req.html
